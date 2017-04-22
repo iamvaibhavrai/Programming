@@ -10,7 +10,7 @@ def findLargestSubarray(a):
     return max_so_far
 
 def main():
-    a = [1,-2,3,-2,5]
+    a = [-1,-2]
     result = findLargestSubarray(a)
     print(result)
 
